@@ -1,8 +1,11 @@
 # Devops Solution Package for Application Server Orchestration
 
-최근 개발 효율을 늘리기 위해 기업들이 소프트웨어 개발 방법론 중 하나인 [Devops](https://aws.amazon.com/ko/devops/what-is-devops/) 이용 사례가 빈번하게 늘고 있는데 여러가지 보조 Tools이 많은데 이를 각각 Settings & Management를 해야 하기에 기업에서는 아예 별도로 [Devops Engineer](http://www.thisisgame.com/webzine/news/nboard/4/?n=71605) 까지 구인을 하고 있다. 이를 한번에 묶어서 Setting 하고 한눈에 Monitoring 할 수 있는 Solution 의 Package 형태로 배포하고 Service 를 제공할 수 있다.
+최근 개발 효율을 늘리기 위해 기업들이 소프트웨어 개발 방법론 중 하나인 [Devops](https://aws.amazon.com/ko/devops/what-is-devops/) 이용 사례가 빈번하게 늘고 있는데 여러가지 보조 Tools이 많은데 이를 각각 Settings & Management를 해야 하기에 기업에서는 아예 별도로 [Devops Engineer](https://puppet.com/blog/what-a-devops-engineer) 까지 구인을 하고 있다. 이를 한번에 묶어서 Setting 하고 한눈에 Monitoring 할 수 있는 Solution 의 Package 형태로 배포하고 Service 를 제공할 수 있다.
 
--   유사 사례 [Centralized logging under Kubernetes - Banzai Cloud](https://banzaicloud.com/blog/k8s-logging/)
+-   유사 사례 
+    -   [Centralized logging under Kubernetes - Banzai Cloud](https://banzaicloud.com/blog/k8s-logging/)
+    -   [[NDC 17] 없어서 못 뽑는다는 데브옵스(DevOps) 개발자, 어떤 일을 할까?](http://www.thisisgame.com/webzine/news/nboard/4/?n=71605)
+    -   [실습 Python 앱에 대한 CD 파이프라인 K8s (Kubernetes) 배포](https://www.youtube.com/watch?v=5BT5K01Nn6k)
 
 ##  구성도
 ![구성도](./구성도.png)
@@ -10,7 +13,7 @@
 ## Require Techiniques
 
 -   docker<br>
-   ![docker](docker_logo.png =x80)
+   ![docker](docker_logo.png)
     -   Virtualization 을 이용하여 Application 및 Service를 Container 화 하여 Module 단위로 구성
 
 -   kubernetes(k8s)<br>
